@@ -33,6 +33,7 @@ import tw from 'twrnc';
 
 import Login from './pages/Login';
 import Profile from './pages/profile/Profile';
+import UserProfile from './pages/profile/UserProfile';
 
 const Stack = createNativeStackNavigator();
 
@@ -53,6 +54,9 @@ const App = () => {
             />
             <Stack.Screen
             name='Profile' component={Profile}
+            />
+            <Stack.Screen
+            name='UserProfile' component={UserProfile}
             />
 
           
